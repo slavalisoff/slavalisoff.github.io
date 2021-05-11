@@ -1,24 +1,63 @@
 <!DOCTYPE HTML>
 <head>
 	<title>slava.lisoff visitcard site</title>
-	<link href="https://cdn.jsdelivr.net/gh/atoms19/ligo.css/ligo-1.min.css" rel="stylesheet">
-
-	<style type="text/css">    
-        * { margin: 0; padding: 0; }
-        p { padding: 10px; }
-        #left { position: absolute; left: 0; top: 1; width: 50%; }
-        #right { position: absolute; right: 0; top: 1; width: 50%; } 
-    </style>
+    <link href="https://cdn.jsdelivr.net/gh/atoms19/ligo.css/ligo-1.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1 align="center">Select language | Выберите язык</h1>
-	<p align="center" style="font-size: 26pt;"><a href="en.html">English</a> | <a href="ru.html">Русский</a></p>
-	<hr>
-	<div id="left">
-        <p>Welcome to my visitcard site! I'm Slava, a young programmer-hobbyist from Mari El, Russia. I use Linux, I know JavaScript, Java, C# and Python and I'm learning Ruby. If you need more information about me, click <a href="en.html">here</a>.</p>
+    <div id="header">
+        <header><div class="title">Slava Lisov visitcard</div></header>
     </div>
-    	
-    <div id="right">
-        <p>Добро пожаловать на мой личный сайт-визитку! Я Слава, молодой программист из Марий Эл, в России. Я использую Linux, знаю JavaScript, Java, C# и Python, а также я учу Ruby. Если вы хотите узнать больше обо мне, то нажмите <a href="ru.html">сюда</a>.</p>
+    <div class="container">
+        <p align="center">Hello!
+            I'm Slava Lisov. The young novice developer from Russia.<br>
+            I interested in exploring new technologies and really like programming; already know JavaScript, C#, C, Java and Python. Planning to learn Node.js, React.js, Ruby and TypeScript
+        </p>
+    </div>
+    <div class="container">
+        <p class="head" align="center">
+            My skills
+        </p>
+        <p align="center">For C#: Sqlite3, Windows Forms, CLI and more.<br>
+            For JavaScript: Vanilla JS. (I learning how to work with Node.js and React.js)<br>
+            For Java: CLI, Swing. (Rarely using, I like C# more)<br>
+            For Python: Sqlite3, Tkinter, PyQt5, CLI, Telegram bots and more.<br>
+            C/C++: CLI only. (The level is enough only for solving Olympiad problems)
+        </p>
+    </div>
+    <div class="container">
+        <p class="head" align="center">
+            My contacts
+        </p>
+        <p align="center"><a href="https://github.com/s1avalisoff">My GitHub</a><br>
+            <a href="https://vk.com/s1ava.lisoff">I in VK</a><br>
+            <a href="https://t.me/s1avalisoff">I in Telegram</a><br>
+            My EMail: slava@s1avalisoff.ru
+        </p>
+    </div>
+    <div class="container">
+        <p class="head" align="center">
+            My projects
+        </p>
+        <div style="display: table; width: 100%;">
+        <div class="subcontainer">
+            <p class="head" align="center">SPM.NET</p>
+            <p align="center">The simple password manager implementation in C#. Working at .NET Framework 4.7.2 platform</p>
+            <p style="color: #00D0A7;" align="center">Status: In development, 1.0 released</p>
+            <p align="center"><a href="https://github.com/s1avalisoff/SPM.NET">GutHub Repository</a></p>
+        </div>
+        <div class="subcontainer">
+            <p class="head" align="center">OpenChemistry.JS</p>
+            <p align="center">Website that can find an element and information about it</p>
+            <p style="color: #00D0A7;" align="center">Status: In development</p>
+            <p align="center"><a href="https://github.com/s1avalisoff/OpenChemistry.JS">GutHub Repository</a></p>
+        </div>
+        <div class="subcontainer">
+            <p class="head" align="center">CoinFlip</p>
+            <p align="center">Simple game. Just flips coin!</p>
+            <p style="color: green;" align="center">Status: Released. Official suppoted only linux</p>
+            <p align="center"><a href="https://github.com/s1avalisoff/CoinFlip">GutHub Repository</a></p>
+        </div>
+        </div>
     </div>
 </body>
